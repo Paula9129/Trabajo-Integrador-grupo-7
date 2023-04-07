@@ -11,9 +11,8 @@
     justify-content: flex-end;
     text-align: initial;
 
-    
-
 }
+
 
 .cont-imagen {
 
@@ -31,7 +30,32 @@
     padding: 10px;
 
 }
+button{
+    display: flex;
+    display: inline-block;
+    background-color: rgb(41, 40, 104);
+    color: rgb(230, 228, 228);
+    border: none;
+    width: 180px;
+    height: 200px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 0px 5px 6px rgba(17, 17, 17, 0.439);
+}
 
+p{
+    margin: 60px 70px;
+    font-size: 25px;
+    justify-content: center;
+}
+.icon-button i {
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    
+}
 .navbar{
     width: 70;
     margin: auto;
