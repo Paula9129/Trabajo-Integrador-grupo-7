@@ -14,23 +14,14 @@
 }
 
 
-.cont-imagen {
-
-}
-
-
-.familia {
-
-}
-
 .container {
-    min-height: 700px;
+    min-height: 700px 200px;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
 
 }
-button{
+section button{
     display: flex;
     display: inline-block;
     background-color: rgb(41, 40, 104);
@@ -45,8 +36,8 @@ button{
     box-shadow: 0px 5px 6px rgba(17, 17, 17, 0.439);
 }
 
-p{
-    margin: 60px 70px;
+h2{
+    margin: 60px;
     font-size: 25px;
     justify-content: center;
 }
@@ -72,9 +63,7 @@ p{
 
 }
 
-.buscar{
 
-}
 
 .navbar ul li {
     list-style: none;
@@ -86,7 +75,7 @@ p{
 .navbar ul li a {
     font-style: inherit;
     text-decoration: none;
-    color: black;
+    
     font-family: sans-serif;
     font-size: 1rem;
 
@@ -112,20 +101,20 @@ p{
 }
 
 main{
-    display: 
+    display: table-row;
 }
 main img{
     width: 100vw; /* la imagen se ajustará al ancho del contenedor */
-    height: 50vh; /* establece la altura máxima de la imagen */
+    height: 60vh; /* establece la altura máxima de la imagen */
     object-fit: cover; /* la imagen se recortará para llenar el contenedor */
     overflow: hidden; /* oculta cualquier parte de la imagen que se extienda más allá de los límites del contenedor */
 
 }
 
 
-.footer{
+footer{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .pie{

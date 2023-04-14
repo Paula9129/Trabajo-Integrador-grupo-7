@@ -28,7 +28,6 @@ body{
 .navbar ul li a {
     font-style: inherit;
     text-decoration: none;
-    color: black;
     font-family: sans-serif;
     font-size: 1rem;
 
@@ -128,7 +127,7 @@ clear: both;
 
 footer{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 .pie{
     text-align: center;
